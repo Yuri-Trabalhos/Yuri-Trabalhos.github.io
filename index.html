@@ -30,40 +30,11 @@
     <h1>Leros e Leros</h1>
     <ul id="random-data"></ul>
 
-    <script>
-        // Função para gerar uma sequência aleatória de CPF
-        function generateRandomText() {
-            const texts = [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Pellentesque euismod massa eget nisl vehicula, eget hendrerit purus ultrices.",
-                "Suspendisse potenti. Fusce dapibus urna eget luctus congue.",
-                "Vestibulum tincidunt nisl a metus viverra fringilla.",
-                "Proin eget lectus nec elit dignissim fermentum.",
-            ];
-            const randomIndex = Math.floor(Math.random() * texts.length);
-            return texts[randomIndex];
-        }
-        
-        function generateRandomCPF() {
-            const section1 = Math.floor(Math.random() * 900) + 100;
-            const section2 = Math.floor(Math.random() * 900) + 100;
-            const section3 = Math.floor(Math.random() * 900) + 100;
-            const section4 = Math.floor(Math.random() * 90) + 10;
-            return `${section1}.${section2}.${section3}-${section4}`;
-        }
-
-        // Função para gerar texto aleatório
-        
-
-        // Adicionar 10 registros à lista
-        const ul = document.getElementById("random-data");
-        for (let i = 0; i < 10; i++) {
-            const cpf = generateRandomCPF();
-            const text = generateRandomText();
-            const li = document.createElement("li");
-            li.textContent = `${text}CPF: ${cpf} ${text}`;
-            ul.appendChild(li);
-        }
-    </script>
+    <h2>Lorem Ipsonapdaiksjdoaisjdoajsodajsodjaosd 910.056.525-38 akosjdnajdlkajsldkajlsd</h2>
+    <h2>Lorem Ipsonapdaiksjdoaisjdoajsodajsodjaosd 525.366.883-72 akosjdnajdlkajsldkajlsd</h2>
+    <h2>Lorem Ipsonapdaiksjdoaisjdoajsodajsodjaosd 409.598.425-27 akosjdnajdlkajsldkajlsd</h2>
+    <h2>Lorem Ipsonapdaiksjdoaisjdoajsodajsodjaosd 424.341.144-15 akosjdnajdlkajsldkajlsd</h2>
+    <h2>Lorem Ipsonapdaiksjdoaisjdoajsodajsodjaosd 498.908.168-49 akosjdnajdlkajsldkajlsd</h2>
+    <h2>Lorem Ipsonapdaiksjdoaisjdoajsodajsodjaosd 284.516.648-65 akosjdnajdlkajsldkajlsd</h2>
 </body>
 </html>
